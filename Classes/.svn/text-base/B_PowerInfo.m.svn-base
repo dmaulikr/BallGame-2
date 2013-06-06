@@ -1,0 +1,104 @@
+    //
+//  B_PowerInfo.m
+//  BallGame
+//
+//  Created by 沈 冬冬 on 11-12-3.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "B_PowerInfo.h"
+#import "Constants.h"
+
+@implementation B_PowerInfo
+
+@synthesize type;
+@synthesize curValue;
+@synthesize tagShow;
+@synthesize valueLabel;
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+/*
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization.
+    }
+    return self;
+}
+*/
+
+-(void) clearInfo
+{
+	curValue = 0;
+	valueLabel.text = @"";
+}
+
+-(void) updateValue:(int) value			//更新数值
+{
+	curValue += value;
+	valueLabel.text = [NSString stringWithFormat:@"%d",curValue];
+}
+
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
+- (void)loadView {
+	CGRect frame;
+	
+	frame = CGRectMake(10, 0, 50, 40);
+	tagShow = [[UILabel alloc] initWithFrame:frame];
+	frame = CGRectMake(65, 0, 50, 40);
+	valueLabel = [[UILabel alloc] initWithFrame:frame];
+	
+	if(type == attackTypeDefine) 
+	{
+		frame = CGRectMake(10, 0, 200, 30);				//表示攻击条
+		tagShow.text = @"Attack";
+	}
+	else 
+	{
+		frame = CGRectMake(10, 40, 200, 30);				//表示防守条
+		tagShow.text = @"Defense";
+	}
+	
+	self.view = [[UIView alloc] initWithFrame:frame];
+	
+	[self.view addSubview:tagShow];
+	[self.view addSubview:valueLabel];
+	
+}
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Overriden to allow any orientation.
+    return YES;
+}
+
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+
+- (void)viewDidUnload {
+	tagShow = nil;
+	tagShow = nil;
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (void)dealloc 
+{ 
+	type = 0;
+	curValue = 0;
+	[tagShow release];
+	[valueLabel release];
+    [super dealloc];
+}
+
+
+@end

@@ -1,0 +1,149 @@
+//
+//  GLPowerSide.m
+//  BallGame
+//
+//  Created by 沈 冬冬 on 12-1-19.
+//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import "GLPowerSide.h"
+#import "GLArmy.h"
+#import "Constants.h"
+#import "GLScene.h"
+#import "GlSkillBar.h"
+#import "UIDefine.h"
+#import "GLBattleStore.h"
+#import "GLCellArea.h"
+
+@implementation GLPowerSide
+
+@synthesize battleView;
+@synthesize armyView;
+@synthesize sidetype;
+@synthesize scene;
+@synthesize atkPowerInfo;
+@synthesize defPowerInfo;
+@synthesize skillBar;
+
+@synthesize opponent;
+
+-(void) initPowerSide
+{
+	[atkPowerInfo clearInfo];
+	[defPowerInfo clearInfo];
+	[skillBar clearInfo];
+}
+
+-(void) initGLSideInfo
+{	
+	
+	if (self.sidetype == userSide) {
+		self.pos = BGPointMake(attackPoserSideFrame.origin.x, attackPoserSideFrame.origin.y, 1);
+	}
+	else {
+		self.pos = BGPointMake(defensePoserSideFrame.origin.x, defensePoserSideFrame.origin.y, 1);
+	}
+
+	if (battleView == nil)
+	{
+		battleView = [[GLCellArea alloc] init];
+		battleView.power = self;
+		
+		[battleView initGLBattle];
+		[self addChild:battleView];
+		
+		if (self.sidetype == userSide) {
+			battleView.mouseChildren = YES;
+		}
+		
+	}
+	
+	if (atkPowerInfo == nil) 
+	{
+		atkPowerInfo = [[GLBattleStore alloc] initWithType:attackTypeDefine];
+		[self addChild:atkPowerInfo];
+	}
+	
+	if (defPowerInfo == nil)
+	{
+		defPowerInfo = [[GLBattleStore alloc] initWithType:defenseTypeDefine];
+		[self addChild:defPowerInfo];
+	}
+	
+	if (armyView == nil) 
+	{
+		armyView = [[GLArmy alloc] initWithPower:self];
+		armyView.mouseChildren = NO;
+		[self addChild:armyView];
+	}
+	
+	if (skillBar == nil) 
+	{
+		skillBar = [[GlSkillBar alloc] init];
+		[self addChild:skillBar];
+	}
+}
+
+-(void) handleDisapperCell:(NSMutableDictionary *)cellTypeInfo cellType:(int)type			//更新攻击以及防守的数值
+{
+	if (cellTypeInfo == nil) {
+		return;
+	}
+	for(NSNumber *key in cellTypeInfo)
+	{
+		int type = [key intValue];
+		NSNumber *value = [cellTypeInfo objectForKey:key];
+		if (type == attackTypeDefine) {
+			[atkPowerInfo increaseValue:[value intValue]];
+		}
+		else if (type == defenseTypeDefine) {
+			[defPowerInfo increaseValue:[value intValue]];
+		}
+	}
+}
+
+-(void) bearDamage:(int) value					//遭受损失
+{	
+	int damageValue = 0;
+	int defensePointsLeft = 0;
+	
+	if (value > self.defPowerInfo.curValue) {
+		damageValue = value - self.defPowerInfo.curValue;
+		defensePointsLeft = 0;
+	}
+	else {
+		damageValue = 0;
+		defensePointsLeft = self.defPowerInfo.curValue - value;
+	}
+	
+	[self.defPowerInfo updateValue:defensePointsLeft];
+	
+	Boolean isDead = [armyView assignDamage:damageValue];
+	if (isDead) {
+		//NSLog(@"one is dead!!");
+	}
+	
+}
+
+-(void) simuCelleClicked:(int)level				//模拟点击
+{	
+	int index = [battleView getCellToClick];
+	GLCell *cell = [battleView getCellByIndex:index];
+	if (cell) 
+	{
+		
+		[battleView colorButtonClicked:cell];
+	}
+}
+
+- (void)dealloc 
+{
+	[battleView release];
+	[armyView release];
+	[scene release];
+	[atkPowerInfo release];
+	[defPowerInfo release];
+    [super dealloc];
+}
+
+@end

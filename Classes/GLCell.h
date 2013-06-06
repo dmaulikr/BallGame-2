@@ -1,0 +1,58 @@
+//
+//  GLCell.h
+//  BallGame
+//	使用opengl实现的cell, 从button继承而来
+//  Created by 沈 冬冬 on 12-1-14.
+//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "BGGLButton.h"
+#import "GLDisplayobject.h"
+#import "GLDisplayobjectContainer.h"
+#import "BGImage.h"
+
+@class GLCellArea;
+
+@interface GLCell : GLDisplayobjectContainer  {
+	int effecttype;						//效果类型
+	int colorType;							//颜色类型
+	GLCellArea *cellParent;
+	int column;			
+	int row;
+	CATransition *transition; 
+	
+	NSTimer *insertwaitTimer;	//插入需要等待的时间
+	
+	BGImage *imageView;
+}
+
+//@property (nonatomic,assign) int colorType;
+@property (nonatomic,assign) int effecttype;
+@property (nonatomic,retain) GLCellArea *cellParent;
+@property (nonatomic,assign) int column;
+@property (nonatomic,assign) int row;
+@property (nonatomic,retain) CATransition *transition;
+
+@property (nonatomic,retain) NSTimer *insertwaitTimer;	//插入需要等待的时间
+
+@property (nonatomic,retain) BGImage *imageView;
+
+-(id) initcell:(CGPoint)pos colorType:(int)colorType cellType:(int)cellType;
+-(void) initImages;
+
+-(void) dealloc;
+-(void) setSelfVisible:(Boolean) b_show;
+
+-(void) setDownValue:(int) downValue;						//需要向下位移的距离
+-(void) setFillPos:(int) upValue;			//补进来的时候高度
+
+-(void) setcellEffectType:(int)effectType;		//设置cell的类型
+
+-(void) makeMove;
+
+//colortype的getter和setter
+-(int) colorType;
+-(void) setColorType:(int) value;
+
+@end

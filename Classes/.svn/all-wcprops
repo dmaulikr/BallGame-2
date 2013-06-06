@@ -1,0 +1,575 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/BallGame/Classes
+END
+SceneDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/50/trunk/BallGame/Classes/SceneDefines.h
+END
+RoleSprite.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/RoleSprite.m
+END
+BBSceneObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/50/trunk/BallGame/Classes/BBSceneObject.m
+END
+Global.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/Global.h
+END
+BallGameAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/50/trunk/BallGame/Classes/BallGameAppDelegate.h
+END
+B_PowerSide.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_PowerSide.h
+END
+Global.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/Global.m
+END
+BallGameAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/50/trunk/BallGame/Classes/BallGameAppDelegate.m
+END
+PostionFunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/PostionFunc.h
+END
+B_PowerSide.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_PowerSide.m
+END
+B_PowerInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/18/trunk/BallGame/Classes/B_PowerInfo.h
+END
+BBConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/BallGame/Classes/BBConfiguration.h
+END
+GLBattleStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLBattleStore.h
+END
+PostionFunc.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/PostionFunc.m
+END
+B_PowerInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/BallGame/Classes/B_PowerInfo.m
+END
+GLBattleStore.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/53/trunk/BallGame/Classes/GLBattleStore.m
+END
+B_Unit.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_Unit.h
+END
+B_Unit.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_Unit.m
+END
+ColorDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/ColorDefine.h
+END
+McView.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/McView.h
+END
+GLCellArea.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLCellArea.h
+END
+BGImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGImage.h
+END
+B_Scene.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_Scene.h
+END
+McView.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/McView.m
+END
+BGImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGImage.m
+END
+GLCellArea.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/53/trunk/BallGame/Classes/GLCellArea.m
+END
+BGPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGPoint.h
+END
+GLUnit.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLUnit.h
+END
+EAGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/trunk/BallGame/Classes/EAGLView.h
+END
+B_Scene.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/53/trunk/BallGame/Classes/B_Scene.m
+END
+BGMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGMesh.h
+END
+GLUnit.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/53/trunk/BallGame/Classes/GLUnit.m
+END
+GameViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/50/trunk/BallGame/Classes/GameViewController.h
+END
+EAGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/trunk/BallGame/Classes/EAGLView.m
+END
+ASFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/ASFunction.h
+END
+BGMesh.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGMesh.m
+END
+B_CellVIew.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_CellVIew.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/50/trunk/BallGame/Classes/Constants.h
+END
+GameViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/53/trunk/BallGame/Classes/GameViewController.m
+END
+ASFunction.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/ASFunction.m
+END
+B_CellVIew.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/53/trunk/BallGame/Classes/B_CellVIew.m
+END
+BGButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGButton.h
+END
+BGButton.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/53/trunk/BallGame/Classes/BGButton.m
+END
+B_skillBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_skillBar.h
+END
+BBSceneController.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/50/trunk/BallGame/Classes/BBSceneController.h
+END
+B_skillBar.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_skillBar.m
+END
+BBSceneController.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/50/trunk/BallGame/Classes/BBSceneController.m
+END
+B_AtkDefStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_AtkDefStore.h
+END
+BattleFuncClass.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/BallGame/Classes/BattleFuncClass.h
+END
+SwfImageParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/50/trunk/BallGame/Classes/SwfImageParser.h
+END
+B_Cell.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_Cell.h
+END
+B_AtkDefStore.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_AtkDefStore.m
+END
+BattleFuncClass.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/BallGame/Classes/BattleFuncClass.m
+END
+SwfImageParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/50/trunk/BallGame/Classes/SwfImageParser.m
+END
+Main.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/50/trunk/BallGame/Classes/Main.h
+END
+GLPowerSide.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLPowerSide.h
+END
+B_Cell.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_Cell.m
+END
+GlSkillBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/GlSkillBar.h
+END
+MovieClip.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/50/trunk/BallGame/Classes/MovieClip.h
+END
+UIDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/51/trunk/BallGame/Classes/UIDefine.h
+END
+BGAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGAnimation.h
+END
+BGSwfMaker.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGSwfMaker.h
+END
+GLPowerSide.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/54/trunk/BallGame/Classes/GLPowerSide.m
+END
+Main.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/50/trunk/BallGame/Classes/Main.m
+END
+GLArmy.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLArmy.h
+END
+GlSkillBar.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/57/trunk/BallGame/Classes/GlSkillBar.m
+END
+MovieClip.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/50/trunk/BallGame/Classes/MovieClip.m
+END
+BGSwfMaker.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGSwfMaker.m
+END
+BGAnimation.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGAnimation.m
+END
+BGAnimatedImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGAnimatedImage.h
+END
+Values.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/Values.h
+END
+GLArmy.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/53/trunk/BallGame/Classes/GLArmy.m
+END
+GLCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLCell.h
+END
+BBInputViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/50/trunk/BallGame/Classes/BBInputViewController.h
+END
+BGAnimatedImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGAnimatedImage.m
+END
+Config.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/Config.h
+END
+Sprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/Sprite.h
+END
+BGGLButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGGLButton.h
+END
+GLCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/52/trunk/BallGame/Classes/GLCell.m
+END
+BBInputViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/50/trunk/BallGame/Classes/BBInputViewController.m
+END
+BGImageMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGImageMesh.h
+END
+B_army.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_army.h
+END
+BGSceneController.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/55/trunk/BallGame/Classes/BGSceneController.h
+END
+Sprite.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/Sprite.m
+END
+BGGLButton.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGGLButton.m
+END
+BGImageMesh.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/50/trunk/BallGame/Classes/BGImageMesh.m
+END
+B_army.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/BallGame/Classes/B_army.m
+END
+GLDisplayobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLDisplayobject.h
+END
+GLScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLScene.h
+END
+GLDisplayobjectContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/50/trunk/BallGame/Classes/GLDisplayobjectContainer.h
+END
+GLDisplayobject.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/56/trunk/BallGame/Classes/GLDisplayobject.m
+END
+GLScene.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/53/trunk/BallGame/Classes/GLScene.m
+END
+GLDisplayobjectContainer.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/53/trunk/BallGame/Classes/GLDisplayobjectContainer.m
+END
+BBSceneObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/50/trunk/BallGame/Classes/BBSceneObject.h
+END
+RoleSprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/BallGame/Classes/RoleSprite.h
+END

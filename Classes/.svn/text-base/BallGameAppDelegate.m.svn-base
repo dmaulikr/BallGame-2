@@ -1,0 +1,91 @@
+//
+//  BallGameAppDelegate.m
+//  BallGame
+//
+//  Created by 沈 冬冬 on 11-11-1.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "BallGameAppDelegate.h"
+#import "GameViewController.h"
+#import "BBSceneController.h"
+#import "BBInputViewController.h"
+#import "EAGLView.h"
+#import "BGSwfMaker.h"
+
+@implementation BallGameAppDelegate
+
+@synthesize window,gameViewController;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+	
+	[application setStatusBarOrientation:UIInterfaceOrientationLandscapeRight animated:NO];
+	
+	CGAffineTransform rotate = CGAffineTransformMakeRotation(1.57079633);
+	[window setTransform:rotate];
+	
+	gameViewController =  [GameViewController alloc];
+	
+	[self.window addSubview:gameViewController.view];
+	[self.window makeKeyAndVisible];
+	
+	CGRect contentRect = CGRectMake(0, 0, 1024, 768); 
+	window.bounds = contentRect; 
+	[window setCenter:CGPointMake(384.0f, 512.0f)];
+	
+	/*BBSceneController *sceneController = [BBSceneController sharedSceneController];
+	
+	BBInputViewController * anInputController = [[BBInputViewController alloc] initWithNibName:nil bundle:nil];
+	sceneController.inputController = anInputController;
+	[anInputController release];
+	
+	//初始化 EAGLView
+	EAGLView * glView = [[EAGLView alloc] initWithFrame:window.bounds];
+	sceneController.inputController.view = glView;
+	sceneController.openGLView = glView;
+	[glView release];
+	[self.window addSubview:sceneController.inputController.view];
+	
+	[sceneController loadScene];
+	[sceneController startScene];
+	 */
+	
+    return YES;
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application {
+    /*
+     Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+     Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+     */
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    /*
+     Restart any tasks that were paused (or not yet started) while the application was inactive.
+     */
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    /*
+     Called when the application is about to terminate.
+     */
+}
+
+#pragma mark -
+#pragma mark Memory management
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
+    /*
+     Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
+     */
+}
+
+
+- (void)dealloc {
+    [window release];
+    [super dealloc];
+}
+
+
+@end

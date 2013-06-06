@@ -1,0 +1,24 @@
+//
+//  Main.h
+//  BallGame
+//	主界面
+//  Created by 沈 冬冬 on 11-12-16.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class B_Scene;
+
+@interface Main : UIViewController 
+{
+	UIImageView * backGround;
+	
+	UIButton *btn;
+}
+
+@property (nonatomic,retain) UIImageView * backGround;
+@property (nonatomic,retain) UIButton * btn;
+
+-(void) startButtonClicked;
+
+@end

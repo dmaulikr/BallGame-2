@@ -1,0 +1,1975 @@
+TBallGame
+v7
+r0
+t349014713.492118
+cCheck dependencies
+cProcessInfoPlistFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/Info.plist BallGame-Info.plist
+cCompileXIB /Users/sddhbk/gamemaking/BallGame/BallGame/MainWindow.xib
+cCompileXIB /Users/sddhbk/gamemaking/BallGame/BallGame/battle.xib
+cCpResource build/Debug-iphonesimulator/BallGame.app/Default@2x.png Default@2x.png
+cCpResource build/Debug-iphonesimulator/BallGame.app/multi2.png multi2.png
+cCpResource build/Debug-iphonesimulator/BallGame.app/shield.png Classes/gameresource/../../shield.png
+cCpResource build/Debug-iphonesimulator/BallGame.app/sword.png sword.png
+cCpResource build/Debug-iphonesimulator/BallGame.app/gameback.jpg gameback.jpg
+cCpResource build/Debug-iphonesimulator/BallGame.app/role1_81_250_250_16.png role1_81_250_250_16.png
+cCopyPlistFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/FrameDefine.plist FrameDefine.plist
+cCpResource build/Debug-iphonesimulator/BallGame.app/role2_32_100_100_8.png role2_32_100_100_8.png
+cCpResource build/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.png Classes/gameresource/SpaceRocksAtlas.png
+cCopyPlistFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.plist Classes/gameresource/SpaceRocksAtlas.plist
+cProcessPCH /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch.gch BallGame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o /Users/sddhbk/gamemaking/BallGame/BallGame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BallGameAppDelegate.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GameViewController.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_CellVIew.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BattleFuncClass.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Cell.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Unit.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Scene.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_PowerSide.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_army.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_AtkDefStore.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_skillBar.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Main-C5996958D2081D93.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Global.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/SwfImageParser.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/RoleSprite.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Sprite.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/McView.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/MovieClip.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBInputViewController.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGMesh.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneController.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneObject.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/EAGLView.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGButton.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImageMesh.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGSwfMaker.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGGLButton.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimatedImage.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimation.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/PostionFunc.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCell.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobject.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/ASFunction.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobjectContainer.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImage.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCellArea.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLPowerSide.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLScene.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLArmy.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLUnit.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLBattleStore.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GlSkillBar.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame normal i386
+cGenerateDSYMFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app.dSYM /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame
+cTouch /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC123080000000000000A61
+t1287725832
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/BallGame_Prefix.pch
+c000000004EDB022E00000000000000B9
+t1322975790
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.h
+c000000004F1587550000000000000193
+t1326810965
+s403
+i<Foundation/Foundation.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.m
+c000000004F1578030000000000000207
+t1326807043
+s519
+i"ASFunction.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBConfiguration.h
+c000000004F112F9900000000000002B2
+t1326526361
+s690
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.h
+c000000004F02C3560000000000000406
+t1325581142
+s1030
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.m
+c000000004F1B95080000000000001781
+t1327207688
+s6017
+i"BBInputViewController.h"
+i"BGButton.h"
+i"BGGLButton.h"
+i"BGAnimation.h"
+i"BBSceneController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.h
+c000000004F094DA20000000000000577
+t1326009762
+s1399
+i<Foundation/Foundation.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.m
+c000000004F1139130000000000000D72
+t1326528787
+s3442
+i"BBSceneController.h"
+i"BBInputViewController.h"
+i"EAGLView.h"
+i"BBSceneObject.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.h
+c000000004F10EA8A0000000000000392
+t1326508682
+s914
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<QuartzCore/QuartzCore.h>
+i"BGPoint.h"
+i"BGMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.m
+c000000004F1972870000000000000859
+t1327067783
+s2137
+i"BBSceneObject.h"
+i"BBSceneController.h"
+i"BBInputViewController.h"
+i"BGMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.h
+c000000004F175AE9000000000000028D
+t1326930665
+s653
+i"BGImageMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.m
+c000000004F16C800000000000000045D
+t1326893056
+s1117
+i"BGAnimatedImage.h"
+i"BBSceneController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.h
+c000000004F1589340000000000000145
+t1326811444
+s325
+i"BBSceneObject.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.m
+c000000004F1602D8000000000000033A
+t1326842584
+s826
+i"BGAnimation.h"
+i"BGSwfMaker.h"
+i"BGAnimatedImage.h"
+i"BBSceneController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.h
+c000000004F1258AA00000000000002C3
+t1326602410
+s707
+i<Foundation/Foundation.h>
+i"BBSceneObject.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.m
+c000000004F16C6230000000000000CA6
+t1326892579
+s3238
+i"BGButton.h"
+i"BGMesh.h"
+i"BBInputViewController.h"
+i"BBSceneController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.h
+c000000004F15888600000000000001DE
+t1326811270
+s478
+i"BGButton.h"
+i"BGImageMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.m
+c000000004F113E5F00000000000004DB
+t1326530143
+s1243
+i"BGGLButton.h"
+i"BGSwfMaker.h"
+i"BBSceneController.h"
+i"BBInputViewController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.h
+c000000004F16BCB40000000000000176
+t1326890164
+s374
+i<Foundation/Foundation.h>
+i"GLDisplayobject.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.m
+c000000004F193BBA0000000000000231
+t1327053754
+s561
+i"BGImage.h"
+i"BGSwfMaker.h"
+i"BGImageMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.h
+c000000004F16BCCF00000000000001CE
+t1326890191
+s462
+i<Foundation/Foundation.h>
+i"BGMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.m
+c000000004F16BE0E000000000000055A
+t1326890510
+s1370
+i"BGImageMesh.h"
+i"BGMesh.h"
+i"BGSwfMaker.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.h
+c000000004F096B090000000000000457
+t1326017289
+s1111
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<QuartzCore/QuartzCore.h>
+i"BGPoint.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.m
+c000000004F16BC7C0000000000000CB2
+t1326890108
+s3250
+i"BGMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGPoint.h
+c000000004F158742000000000000055C
+t1326810946
+s1372
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.h
+c000000004F1588860000000000000462
+t1326811270
+s1122
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<QuartzCore/QuartzCore.h>
+i"BGPoint.h"
+i"BBConfiguration.h"
+i"BGImageMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.m
+c000000004F16BFAD0000000000001AF8
+t1326890925
+s6904
+i"BGSwfMaker.h"
+i"BGAnimatedImage.h"
+i"BGImageMesh.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.h
+c000000004F19386600000000000003B8
+t1327052902
+s952
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.m
+c000000004F1938210000000000000C06
+t1327052833
+s3078
+i"B_AtkDefStore.h"
+i"Constants.h"
+i"BattleFuncClass.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.h
+c000000004F16068B0000000000000514
+t1326843531
+s1300
+i<UIKit/UIKit.h>
+i"B_CellVIew.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.m
+c000000004F12879D0000000000000DFD
+t1326614429
+s3581
+i"B_Cell.h"
+i"Constants.h"
+i"BattleFuncClass.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.h
+c000000004F0D818A00000000000009EF
+t1326285194
+s2543
+i<UIKit/UIKit.h>
+i"B_Cell.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m
+c000000004F10EAAA00000000000034C6
+t1326508714
+s13510
+i"B_CellVIew.h"
+i"Constants.h"
+i"BattleFuncClass.h"
+i"B_Cell.h"
+i"B_PowerSide.h"
+i"B_Scene.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.h
+c000000004F1938210000000000000510
+t1327052833
+s1296
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.m
+c000000004F1938210000000000000FFC
+t1327052833
+s4092
+i"B_PowerSide.h"
+i"B_CellVIew.h"
+i"B_army.h"
+i"B_AtkDefStore.h"
+i"Constants.h"
+i"B_Scene.h"
+i"B_skillBar.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.h
+c000000004F0D7E4E0000000000000248
+t1326284366
+s584
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.m
+c000000004F19796C0000000000000B82
+t1327069548
+s2946
+i"B_Scene.h"
+i"B_PowerSide.h"
+i"B_Cell.h"
+i"BattleFuncClass.h"
+i"Constants.h"
+i"B_AtkDefStore.h"
+i"B_army.h"
+i"B_skillBar.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.h
+c000000004EE8A55C00000000000002F7
+t1323869532
+s759
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.m
+c000000004F1924690000000000000577
+t1327047785
+s1399
+i"B_Unit.h"
+i"Constants.h"
+i"Values.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.h
+c000000004F19220D00000000000001F4
+t1327047181
+s500
+i<UIKit/UIKit.h>
+i"B_Unit.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.m
+c000000004F19220800000000000007CA
+t1327047176
+s1994
+i"B_army.h"
+i"Constants.h"
+i"B_Unit.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.h
+c000000004F0D962B000000000000034B
+t1326290475
+s843
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.m
+c000000004F0D96DA0000000000000B81
+t1326290650
+s2945
+i"B_skillBar.h"
+i"UIDefine.h"
+i"Constants.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.h
+c000000004F0C456E00000000000001F5
+t1326204270
+s501
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.m
+c000000004F10DE360000000000000ADE
+t1326505526
+s2782
+i"BallGameAppDelegate.h"
+i"GameViewController.h"
+i"BBSceneController.h"
+i"BBInputViewController.h"
+i"EAGLView.h"
+i"BGSwfMaker.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.h
+c000000004F1978E600000000000002D4
+t1327069414
+s724
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"B_Cell.h"
+i"BGButton.h"
+i"BGImage.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.m
+c000000004F19793A0000000000000D08
+t1327069498
+s3336
+i"BattleFuncClass.h"
+i"B_Cell.h"
+i"Constants.h"
+i"UIDefine.h"
+i"BGGLButton.h"
+i"PostionFunc.h"
+i"BBSceneController.h"
+i"SceneDefines.h"
+i"GLCell.h"
+i"BGImage.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h
+c000000004F1A089F000000000000073A
+t1327106207
+s1850
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Constants.h
+c000000004F14B89C00000000000004FA
+t1326758044
+s1274
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.h
+c000000004F0C3D8D0000000000000443
+t1326202253
+s1091
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.m
+c000000004F0C36030000000000001611
+t1326200323
+s5649
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGLDrawable.h>
+i"EAGLView.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.h
+c000000004F1904130000000000000205
+t1327039507
+s517
+i<Foundation/Foundation.h>
+i"GLDisplayobjectContainer.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.m
+c000000004F1934EC00000000000006A3
+t1327052012
+s1699
+i"GLArmy.h"
+i"Constants.h"
+i"GLUnit.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.h
+c000000004F1A0D890000000000000430
+t1327107465
+s1072
+i<Foundation/Foundation.h>
+i"GLDisplayobjectContainer.h"
+i"BBSceneController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m
+c000000004F197B7A0000000000000992
+t1327070074
+s2450
+i"GLBattleStore.h"
+i"Constants.h"
+i"BattleFuncClass.h"
+i"UIDefine.h"
+i"BGImage.h"
+i"ColorDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.h
+c000000004F1A0F9A0000000000000580
+t1327107994
+s1408
+i<Foundation/Foundation.h>
+i"BGGLButton.h"
+i"GLDisplayobject.h"
+i"GLDisplayobjectContainer.h"
+i"BGImage.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.m
+c000000004F1A0FF00000000000000D27
+t1327108080
+s3367
+i"GLCell.h"
+i"UIDefine.h"
+i"BBSceneController.h"
+i"Constants.h"
+i"BGGLButton.h"
+i"ColorDefine.h"
+i"BGImage.h"
+i"Values.h"
+i"GLCellArea.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.h
+c000000004F1824B90000000000000A2D
+t1326982329
+s2605
+i<Foundation/Foundation.h>
+i"GLDisplayobjectContainer.h"
+i"GLCell.h"
+i"GLPowerSide.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m
+c000000004F1829FD0000000000002D65
+t1326983677
+s11621
+i"GLCellArea.h"
+i"Constants.h"
+i"BattleFuncClass.h"
+i"GLCell.h"
+i"GLPowerSide.h"
+i"B_Scene.h"
+i"UIDefine.h"
+i"GLDisplayobjectContainer.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.h
+c000000004F197A3000000000000005C8
+t1327069744
+s1480
+i<Foundation/Foundation.h>
+i"BGButton.h"
+i"ASFunction.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m
+c000000004F197ACE0000000000000B39
+t1327069902
+s2873
+i"GLDisplayobject.h"
+i"BBSceneController.h"
+i"Constants.h"
+i"GLDisplayobject.h"
+i"ColorDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.h
+c000000004F16E1D40000000000000245
+t1326899668
+s581
+i<Foundation/Foundation.h>
+i"GLDisplayobject.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m
+c000000004F1758170000000000000832
+t1326929943
+s2098
+i"GLDisplayobjectContainer.h"
+i"BBSceneController.h"
+i"GLDisplayobject.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.h
+c000000004F1A0C6A000000000000053C
+t1327107178
+s1340
+i<Foundation/Foundation.h>
+i"GLDisplayobjectContainer.h"
+i"GLCell.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.m
+c000000004F1A0D7A000000000000099C
+t1327107450
+s2460
+i"GLPowerSide.h"
+i"GLArmy.h"
+i"Constants.h"
+i"GLScene.h"
+i"GlSkillBar.h"
+i"UIDefine.h"
+i"GLBattleStore.h"
+i"GLCellArea.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.h
+c000000004F182EBB0000000000000273
+t1326984891
+s627
+i<Foundation/Foundation.h>
+i"GLDisplayobjectContainer.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.m
+c000000004F1A0EC00000000000000611
+t1327107776
+s1553
+i"GLScene.h"
+i"GLCell.h"
+i"GLPowerSide.h"
+i"BattleFuncClass.h"
+i"Constants.h"
+i"B_army.h"
+i"B_skillBar.h"
+i"UIDefine.h"
+i"GLBattleStore.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.h
+c000000004F19244B000000000000032D
+t1327047755
+s813
+i<Foundation/Foundation.h>
+i"GLDisplayobjectContainer.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.m
+c000000004F1934DF00000000000005CC
+t1327051999
+s1484
+i"GLUnit.h"
+i"Constants.h"
+i"Values.h"
+i"UIDefine.h"
+i"BBSceneController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.h
+c000000004F182EF20000000000000343
+t1326984946
+s835
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m
+c000000004F18FD870000000000000B97
+t1327037831
+s2967
+i"gameViewController.h"
+i"B_CellVIew.h"
+i"Constants.h"
+i"B_Scene.h"
+i"Main.h"
+i"Global.h"
+i"SceneDefines.h"
+i"SwfImageParser.h"
+i"UIDefine.h"
+i"McView.h"
+i"BBSceneController.h"
+i"BBInputViewController.h"
+i"EAGLView.h"
+i"BGSwfMaker.h"
+i"GLScene.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.h
+c000000004F19394E0000000000000375
+t1327053134
+s885
+i<Foundation/Foundation.h>
+i"GLDisplayobjectContainer.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.m
+c000000004F1981BC0000000000000954
+t1327071676
+s2388
+i"GlSkillBar.h"
+i"UIDefine.h"
+i"Constants.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.h
+c000000004EF1E7D40000000000000158
+t1324476372
+s344
+i<Foundation/Foundation.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.m
+c000000004EEC39F200000000000001B2
+t1324104178
+s434
+i"Global.h"
+i"GameViewController.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.h
+c000000004F0D7B470000000000000194
+t1326283591
+s404
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.m
+c000000004F0D7E0000000000000006D6
+t1326284288
+s1750
+i"Main.h"
+i"Constants.h"
+i"SceneDefines.h"
+i"Global.h"
+i"GameViewController.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.h
+c000000004F0D93D5000000000000043A
+t1326289877
+s1082
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.m
+c000000004EF522A30000000000000A78
+t1324688035
+s2680
+i"McView.h"
+i"RoleSprite.h"
+i"Constants.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.h
+c000000004EF4968B0000000000000123
+t1324652171
+s291
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.m
+c000000004EF5448500000000000005E2
+t1324696709
+s1506
+i"MovieClip.h"
+i"McView.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.h
+c000000004F0DA3B40000000000000154
+t1326293940
+s340
+i<Foundation/Foundation.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.m
+c000000004F1125DE000000000000053E
+t1326523870
+s1342
+i"PostionFunc.h"
+i"SceneDefines.h"
+i"Constants.h"
+i"UIDefine.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.h
+c000000004EF2791100000000000003AA
+t1324513553
+s938
+i<Foundation/Foundation.h>
+i"Sprite.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.m
+c000000004EF9E28100000000000009E4
+t1324999297
+s2532
+i"RoleSprite.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SceneDefines.h
+c000000004F0EF4C40000000000000203
+t1326380228
+s515
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.h
+c000000004EF337CB00000000000003FA
+t1324562379
+s1018
+i<Foundation/Foundation.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.m
+c000000004EF337B70000000000000913
+t1324562359
+s2323
+i"Sprite.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.h
+c000000004EF1F7B3000000000000030E
+t1324480435
+s782
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.m
+c000000004EF33A960000000000000786
+t1324563094
+s1926
+i"SwfImageParser.h"
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/UIDefine.h
+c000000004F0F77A30000000000000671
+t1326413731
+s1649
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Values.h
+c000000004F16CDDA0000000000000172
+t1326894554
+s370
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/../../shield.png
+c000000004E8C5DC20000000000000176
+t1317821890
+s374
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/SpaceRocksAtlas.plist
+c000000004BCF86CC0000000000001602
+t1271891660
+s5634
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/SpaceRocksAtlas.png
+c000000004BCF86CC000000000000DE34
+t1271891660
+s56884
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/Default@2x.png
+c000000004EDB022E000000000000D400
+t1322975790
+s54272
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/FrameDefine.plist
+c000000004EF1E72700000000000000EA
+t1324476199
+s234
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/MainWindow.xib
+c000000004EDB022E00000000000052AA
+t1322975790
+s21162
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/battle.xib
+c000000004EDB022E00000000000043A2
+t1322975790
+s17314
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/ASFunction.o
+t1327321912
+s9832
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBInputViewController.o
+t1327321912
+s62560
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneController.o
+t1327321912
+s58068
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneObject.o
+t1327321912
+s56916
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimatedImage.o
+t1327321912
+s16392
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimation.o
+t1327321912
+s11536
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGButton.o
+t1327321912
+s54464
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGGLButton.o
+t1327321912
+s45908
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImage.o
+t1327321912
+s10448
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImageMesh.o
+t1327321912
+s14464
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGMesh.o
+t1327321912
+s23776
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGSwfMaker.o
+t1327321912
+s24796
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_AtkDefStore.o
+t1327321912
+s57408
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Cell.o
+t1327321912
+s61548
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_CellVIew.o
+t1327321912
+s88736
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_PowerSide.o
+t1327321912
+s63400
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Scene.o
+t1327321912
+s53648
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Unit.o
+t1327321912
+s51572
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_army.o
+t1327321912
+s49972
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_skillBar.o
+t1327321912
+s55412
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BallGame.LinkFileList
+c000000004F1D533500000000000016B4
+t1327321909
+s5812
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BallGameAppDelegate.o
+t1327321911
+s54920
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BattleFuncClass.o
+t1327321912
+s51216
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/EAGLView.o
+t1327321912
+s51352
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLArmy.o
+t1327321913
+s50104
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLBattleStore.o
+t1327321913
+s60112
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCell.o
+t1327321912
+s36076
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCellArea.o
+t1327321913
+s55888
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobject.o
+t1327321912
+s35156
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobjectContainer.o
+t1327321912
+s20676
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLPowerSide.o
+t1327321912
+s59664
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLScene.o
+t1327321912
+s49456
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLUnit.o
+t1327321913
+s52592
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GameViewController.o
+t1327321911
+s58748
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GlSkillBar.o
+t1327321913
+s55900
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Global.o
+t1327321912
+s36708
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Main-C5996958D2081D93.o
+t1327321912
+s50476
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/McView.o
+t1327321912
+s52532
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/MovieClip.o
+t1327321912
+s40848
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/PostionFunc.o
+t1327321912
+s11156
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/RoleSprite.o
+t1327321912
+s26184
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Sprite.o
+t1327321912
+s27472
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/SwfImageParser.o
+t1327321912
+s16440
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+t1327321911
+s6312
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app
+t1327321913
+s578
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app.dSYM
+t1327321913
+s102
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame
+t1327321913
+s376852
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/Default@2x.png
+t1327321909
+s54272
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/FrameDefine.plist
+t1327321910
+s62
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/Info.plist
+t1327321909
+s858
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/MainWindow.nib
+t1327321910
+s1218
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/PkgInfo
+t1327321909
+s8
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.plist
+t1327321910
+s1826
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.png
+t1327321909
+s56884
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/battle.nib
+t1327321910
+s764
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/gameback.jpg
+t1327321909
+s258554
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/multi2.png
+t1327321909
+s407
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/role1_81_250_250_16.png
+t1327321909
+s892320
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/role2_32_100_100_8.png
+t1327321909
+s147508
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/shield.png
+t1327321909
+s374
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/sword.png
+t1327321909
+s349
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/gameback.jpg
+c000000004EEC886E000000000003F1FA
+t1324124270
+s258554
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/main.m
+c000000004EDB022E0000000000000168
+t1322975790
+s360
+i<UIKit/UIKit.h>
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/multi2.png
+c000000004E8C5E3E0000000000000197
+t1317822014
+s407
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/role1_81_250_250_16.png
+c000000004EED6CBD00000000000D9DA0
+t1324182717
+s892320
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/role2_32_100_100_8.png
+c000000004BEAEE330000000000024034
+t1273687603
+s147508
+
+N/Users/sddhbk/gamemaking/BallGame/BallGame/sword.png
+c000000004E8C5D0E000000000000015D
+t1317821710
+s349
+
+N/var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch.gch
+t1327321911
+s15453392
+
+NBallGame-Info.plist
+c000000004EF8868E000000000000052A
+t1324910222
+s1322
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies349014709#349014709#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/ASFunction.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.745617
+e349014712.804735
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/ASFunction.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.m349014712#349014712#0(0"0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.m8604499680#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/ASFunction.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBInputViewController.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.388168
+e349014712.509633
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBInputViewController.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.m349014712#349014712#0(0"0(0#0#74"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.m8602372192#2020"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBInputViewController.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBInputViewController.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneController.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.421727
+e349014712.556230
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneController.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.m349014712#349014712#0(0"0(0#0#70"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.m8605817344#2012"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneController.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneController.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneObject.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.422762
+e349014712.550376
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneObject.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.m349014712#349014712#0(0"0(0#0#66"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.m8604530976#2004"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BBSceneObject.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimatedImage.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.634342
+e349014712.733966
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimatedImage.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.m349014712#349014712#0(0"0(0#0#68"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.m8603503168#2008"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimatedImage.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimatedImage.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimation.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.663299
+e349014712.745470
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimation.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.m349014712#349014712#0(0"0(0#0#64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.m8605752576#2000"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGAnimation.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGAnimation.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGButton.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.535897
+e349014712.690814
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGButton.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.m349014712#349014712#0(0"0(0#0#61"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.m8605987392#1994"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGButton.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGGLButton.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.620596
+e349014712.720875
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGGLButton.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.m349014712#349014712#0(0"0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.m8604175488#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGGLButton.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGGLButton.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImage.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.804862
+e349014712.883355
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImage.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.m349014712#349014712#0(0"0(0#0#60"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.m8602290976#1992"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImage.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImage.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImageMesh.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.550508
+e349014712.634218
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImageMesh.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.m349014712#349014712#0(0"0(0#0#64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.m8605921440#2000"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGImageMesh.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGMesh.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.420139
+e349014712.535772
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGMesh.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.m349014712#349014712#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.m8604104704#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGMesh.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGSwfMaker.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.556351
+e349014712.663177
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGSwfMaker.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.m349014712#349014712#0(0"0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.m8604568576#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BGSwfMaker.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_AtkDefStore.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.150714
+e349014712.281908
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_AtkDefStore.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.m349014712#349014712#0(0"0(0#0#66"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.m8604310112#2004"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_AtkDefStore.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_AtkDefStore.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Cell.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014711.975781
+e349014712.148174
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Cell.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.m349014711#349014712#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.m8603938528#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Cell.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_CellVIew.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014711.801050
+e349014712.150590
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_CellVIew.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m: In function '-[B_CellVIew initGLBattle]':
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m:463: warning: unused variable 'tempCell'
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m:454: warning: unused variable 'cellsInAColumn'
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m349014711#349014712#0(323"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m: In function '-[B_CellVIew initGLBattle]':/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m:463: warning: unused variable 'tempCell'/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m:454: warning: unused variable 'cellsInAColumn'2(22@26"Unused variable 'tempCell'349014712#107#105#0(6@63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m348201514#463#0#463#0#19"unused variable '*'0(22@32"Unused variable 'cellsInAColumn'349014712#212#111#0(6@63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m348201514#454#0#454#0#19"unused variable '*'0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m8604565504#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_CellVIew.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_PowerSide.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.095249
+e349014712.217240
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_PowerSide.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.m349014712#349014712#0(0"0(0#0#64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.m8606015872#2000"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_PowerSide.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_PowerSide.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Scene.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.046546
+e349014712.151644
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Scene.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.m349014712#349014712#0(0"0(0#0#60"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.m7812726390471879680#1992"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Scene.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Unit.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.001467
+e349014712.095127
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Unit.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.m349014712#349014712#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.m8603678944#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Unit.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_Unit.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_army.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.148278
+e349014712.249986
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_army.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.m349014712#349014712#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.m8604506560#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_army.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_army.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_skillBar.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.151757
+e349014712.265390
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_skillBar.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.m349014712#349014712#0(0"0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.m8603531584#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_skillBar.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/B_skillBar.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BallGameAppDelegate.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014711.798712
+e349014711.975660
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BallGameAppDelegate.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.m349014711#349014711#0(0"0(0#0#72"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.m8606004544#2016"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BallGameAppDelegate.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BallGameAppDelegate.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BattleFuncClass.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014711.932269
+e349014712.046420
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BattleFuncClass.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.m349014711#349014712#0(0"0(0#0#68"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.m8604041824#2008"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BattleFuncClass.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BattleFuncClass.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/EAGLView.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.509759
+e349014712.620468
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/EAGLView.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.m349014712#349014712#0(0"0(0#0#61"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.m8604413408#1994"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/EAGLView.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLArmy.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.883474
+e349014713.020767
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLArmy.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.m349014712#349014713#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.m8604432160#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLArmy.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLArmy.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLBattleStore.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.999932
+e349014713.103587
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLBattleStore.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m: In function '-[GLBattleStore initWithType:]':
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m:98: warning: passing argument 1 of 'setDisplayBackGroundColor:' makes integer from pointer without a cast
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m: At top level:
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:10: warning: 'GLColorsRed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:11: warning: 'GLColorsRedPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:13: warning: 'GLColorsGreen' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:14: warning: 'GLColorsGreenPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:16: warning: 'GLColorsBlue' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:17: warning: 'GLColorsBluePressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:19: warning: 'GLColorsYellow' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:20: warning: 'GLColorsYellowPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:22: warning: 'GLColorsOrange' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:23: warning: 'GLColorsOrangePressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:26: warning: 'GLColorWhitePressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:28: warning: 'GLColorBlack' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:29: warning: 'GLColorBlackPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:31: warning: 'blackColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:32: warning: 'whiteColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:33: warning: 'redColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:34: warning: 'greenColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:35: warning: 'blueColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:36: warning: 'yellowColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:37: warning: 'orangeColor' defined but not used
+lSLF07#2@74"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m349014713#349014713#0(2691"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m: In function '-[GLBattleStore initWithType:]':/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m:98: warning: passing argument 1 of 'setDisplayBackGroundColor:' makes integer from pointer without a cast/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m: At top level:/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:10: warning: 'GLColorsRed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:11: warning: 'GLColorsRedPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:13: warning: 'GLColorsGreen' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:14: warning: 'GLColorsGreenPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:16: warning: 'GLColorsBlue' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:17: warning: 'GLColorsBluePressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:19: warning: 'GLColorsYellow' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:20: warning: 'GLColorsYellowPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:22: warning: 'GLColorsOrange' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:23: warning: 'GLColorsOrangePressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:26: warning: 'GLColorWhitePressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:28: warning: 'GLColorBlack' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:29: warning: 'GLColorBlackPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:31: warning: 'blackColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:32: warning: 'whiteColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:33: warning: 'redColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:34: warning: 'greenColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:35: warning: 'blueColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:36: warning: 'yellowColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:37: warning: 'orangeColor' defined but not used22(22@92"Passing argument 1 of 'setDisplayBackGroundColor:' makes integer from pointer without a cast349014713#114#173#0(6@66"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m348762874#98#0#98#0#67"passing argument * of '*' makes integer from pointer without a cast0(23@13"At top level:349014713#287#82#0(6@66"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m348762874#0#0#0#0#0"0(22@34"'GLColorsRed' defined but not used349014713#369#113#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#10#0#10#0#24"'*' defined but not used0(22@41"'GLColorsRedPressed' defined but not used349014713#482#120#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#11#0#11#0#24"'*' defined but not used0(22@36"'GLColorsGreen' defined but not used349014713#602#115#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#13#0#13#0#24"'*' defined but not used0(22@43"'GLColorsGreenPressed' defined but not used349014713#717#122#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#14#0#14#0#24"'*' defined but not used0(22@35"'GLColorsBlue' defined but not used349014713#839#114#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#16#0#16#0#24"'*' defined but not used0(22@42"'GLColorsBluePressed' defined but not used349014713#953#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#17#0#17#0#24"'*' defined but not used0(22@37"'GLColorsYellow' defined but not used349014713#1074#116#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#19#0#19#0#24"'*' defined but not used0(22@44"'GLColorsYellowPressed' defined but not used349014713#1190#123#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#20#0#20#0#24"'*' defined but not used0(22@37"'GLColorsOrange' defined but not used349014713#1313#116#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#22#0#22#0#24"'*' defined but not used0(22@44"'GLColorsOrangePressed' defined but not used349014713#1429#123#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#23#0#23#0#24"'*' defined but not used0(22@42"'GLColorWhitePressed' defined but not used349014713#1552#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#26#0#26#0#24"'*' defined but not used0(22@35"'GLColorBlack' defined but not used349014713#1673#114#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#28#0#28#0#24"'*' defined but not used0(22@42"'GLColorBlackPressed' defined but not used349014713#1787#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#29#0#29#0#24"'*' defined but not used0(22@33"'blackColor' defined but not used349014713#1908#112#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#31#0#31#0#24"'*' defined but not used0(22@33"'whiteColor' defined but not used349014713#2020#112#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#32#0#32#0#24"'*' defined but not used0(22@31"'redColor' defined but not used349014713#2132#110#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#33#0#33#0#24"'*' defined but not used0(22@33"'greenColor' defined but not used349014713#2242#112#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#34#0#34#0#24"'*' defined but not used0(22@32"'blueColor' defined but not used349014713#2354#111#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#35#0#35#0#24"'*' defined but not used0(22@34"'yellowColor' defined but not used349014713#2465#113#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#36#0#36#0#24"'*' defined but not used0(22@34"'orangeColor' defined but not used349014713#2578#113#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#37#0#37#0#24"'*' defined but not used0(0#0#66"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m8604059648#2004"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLBattleStore.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLBattleStore.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCell.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.721004
+e349014712.847293
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCell.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:25: warning: 'GLColorWhite' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:26: warning: 'GLColorWhitePressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:28: warning: 'GLColorBlack' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:29: warning: 'GLColorBlackPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:31: warning: 'blackColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:32: warning: 'whiteColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:33: warning: 'redColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:34: warning: 'greenColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:35: warning: 'blueColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:36: warning: 'yellowColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:37: warning: 'orangeColor' defined but not used
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.m349014712#349014712#0(1253"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:25: warning: 'GLColorWhite' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:26: warning: 'GLColorWhitePressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:28: warning: 'GLColorBlack' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:29: warning: 'GLColorBlackPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:31: warning: 'blackColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:32: warning: 'whiteColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:33: warning: 'redColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:34: warning: 'greenColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:35: warning: 'blueColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:36: warning: 'yellowColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:37: warning: 'orangeColor' defined but not used11(22@35"'GLColorWhite' defined but not used349014712#0#114#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#25#0#25#0#24"'*' defined but not used0(22@42"'GLColorWhitePressed' defined but not used349014712#114#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#26#0#26#0#24"'*' defined but not used0(22@35"'GLColorBlack' defined but not used349014712#235#114#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#28#0#28#0#24"'*' defined but not used0(22@42"'GLColorBlackPressed' defined but not used349014712#349#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#29#0#29#0#24"'*' defined but not used0(22@33"'blackColor' defined but not used349014712#470#112#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#31#0#31#0#24"'*' defined but not used0(22@33"'whiteColor' defined but not used349014712#582#112#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#32#0#32#0#24"'*' defined but not used0(22@31"'redColor' defined but not used349014712#694#110#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#33#0#33#0#24"'*' defined but not used0(22@33"'greenColor' defined but not used349014712#804#112#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#34#0#34#0#24"'*' defined but not used0(22@32"'blueColor' defined but not used349014712#916#111#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#35#0#35#0#24"'*' defined but not used0(22@34"'yellowColor' defined but not used349014712#1027#113#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#36#0#36#0#24"'*' defined but not used0(22@34"'orangeColor' defined but not used349014712#1140#113#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#37#0#37#0#24"'*' defined but not used0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.m8605742432#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCell.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCell.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCellArea.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.847598
+e349014713.039863
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCellArea.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m: In function '-[GLCellArea fillFinished]':
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m:164: warning: incompatible Objective-C types 'struct GLPowerSide *', expected 'struct B_PowerSide *' when passing argument 2 of 'makeAttack:powerside:' from distinct Objective-C type
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m349014712#349014713#0(354"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m: In function '-[GLCellArea fillFinished]':/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m:164: warning: incompatible Objective-C types 'struct GLPowerSide *', expected 'struct B_PowerSide *' when passing argument 2 of 'makeAttack:powerside:' from distinct Objective-C type1(22@168"Incompatible Objective-C types 'struct GLPowerSide *', expected 'struct B_PowerSide *' when passing argument 2 of 'makeAttack:powerside:' from distinct Objective-C type349014712#107#247#0(6@63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m348676477#164#0#164#0#0"0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m8603951104#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLCellArea.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLCellArea.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobject.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.734094
+e349014712.852642
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobject.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m:164: warning: method possibly missing a [super dealloc] call
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:11: warning: 'GLColorsRedPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:14: warning: 'GLColorsGreenPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:17: warning: 'GLColorsBluePressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:20: warning: 'GLColorsYellowPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:23: warning: 'GLColorsOrangePressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:26: warning: 'GLColorWhitePressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:29: warning: 'GLColorBlackPressed' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:35: warning: 'blueColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:36: warning: 'yellowColor' defined but not used
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:37: warning: 'orangeColor' defined but not used
+lSLF07#2@76"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m349014712#349014712#0(1318"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m:164: warning: method possibly missing a [super dealloc] call/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:11: warning: 'GLColorsRedPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:14: warning: 'GLColorsGreenPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:17: warning: 'GLColorsBluePressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:20: warning: 'GLColorsYellowPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:23: warning: 'GLColorsOrangePressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:26: warning: 'GLColorWhitePressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:29: warning: 'GLColorBlackPressed' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:35: warning: 'blueColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:36: warning: 'yellowColor' defined but not used/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h:37: warning: 'orangeColor' defined but not used11(22@46"Method possibly missing a [super dealloc] call349014712#0#130#0(6@68"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m348762702#164#0#164#0#46"method possibly missing a [super dealloc] call0(22@41"'GLColorsRedPressed' defined but not used349014712#130#120#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#11#0#11#0#24"'*' defined but not used0(22@43"'GLColorsGreenPressed' defined but not used349014712#250#122#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#14#0#14#0#24"'*' defined but not used0(22@42"'GLColorsBluePressed' defined but not used349014712#372#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#17#0#17#0#24"'*' defined but not used0(22@44"'GLColorsYellowPressed' defined but not used349014712#493#123#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#20#0#20#0#24"'*' defined but not used0(22@44"'GLColorsOrangePressed' defined but not used349014712#616#123#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#23#0#23#0#24"'*' defined but not used0(22@42"'GLColorWhitePressed' defined but not used349014712#739#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#26#0#26#0#24"'*' defined but not used0(22@42"'GLColorBlackPressed' defined but not used349014712#860#121#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#29#0#29#0#24"'*' defined but not used0(22@32"'blueColor' defined but not used349014712#981#111#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#35#0#35#0#24"'*' defined but not used0(22@34"'yellowColor' defined but not used349014712#1092#113#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#36#0#36#0#24"'*' defined but not used0(22@34"'orangeColor' defined but not used349014712#1205#113#0(6@64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ColorDefine.h348799007#37#0#37#0#24"'*' defined but not used0(0#0#68"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m8604571488#2008"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobject.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobjectContainer.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.751965
+e349014712.875849
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobjectContainer.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m:104: warning: property 'mouseChildren' requires method '-mouseChildren' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m:104: warning: incomplete implementation of class 'GLDisplayobjectContainer'
+o/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m:104: warning: method definition for '-startMove' not found
+lSLF07#2@85"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m349014712#349014712#0(518"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m:104: warning: property 'mouseChildren' requires method '-mouseChildren' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m:104: warning: incomplete implementation of class 'GLDisplayobjectContainer'/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m:104: warning: method definition for '-startMove' not found3(22@134"Property 'mouseChildren' requires method '-mouseChildren' to be defined - use @synthesize, @dynamic or provide a method implementation349014712#0#227#0(6@77"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m348622743#104#0#104#0#0"0(22@61"Incomplete implementation of class 'GLDisplayobjectContainer'349014712#227#154#0(6@77"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m348622743#104#0#104#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-startMove' not found349014712#381#137#0(6@77"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m348622743#104#0#104#0#35"method definition for '*' not found0(0#0#77"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m8604103712#2026"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLDisplayobjectContainer.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLPowerSide.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.852766
+e349014712.972124
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLPowerSide.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.m349014712#349014712#0(0"0(0#0#64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.m8605891296#2000"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLPowerSide.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLPowerSide.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLScene.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.875986
+e349014712.999802
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLScene.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.m349014712#349014713#0(0"0(0#0#60"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.m8604524448#1992"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLScene.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLUnit.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.972253
+e349014713.074574
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLUnit.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.m349014712#349014713#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.m8604533664#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLUnit.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GLUnit.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GameViewController.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014711.799808
+e349014712.001344
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GameViewController.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m349014711#349014712#0(0"0(0#0#71"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m8605927104#2014"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GameViewController.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GlSkillBar.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014713.020896
+e349014713.114709
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GlSkillBar.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.m349014713#349014713#0(0"0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.m8606060512#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GlSkillBar.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/GlSkillBar.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Global.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.250098
+e349014712.314942
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Global.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.m349014712#349014712#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.m8605892512#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Global.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Main-C5996958D2081D93.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.217370
+e349014712.316858
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Main-C5996958D2081D93.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.m349014712#349014712#0(0"0(0#0#57"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.m8604555936#2003"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Main-C5996958D2081D93.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/McView.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.316977
+e349014712.420005
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/McView.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.m349014712#349014712#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.m8604297920#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/McView.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/MovieClip.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.340514
+e349014712.421405
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/MovieClip.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.m349014712#349014712#0(0"0(0#0#62"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.m8603733152#1996"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/MovieClip.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/MovieClip.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/PostionFunc.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.690936
+e349014712.751840
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/PostionFunc.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.m349014712#349014712#0(0"0(0#0#64"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.m8606049760#2000"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/PostionFunc.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/PostionFunc.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/RoleSprite.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.282029
+e349014712.388046
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/RoleSprite.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.m349014712#349014712#0(0"0(0#0#63"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.m8605995136#1998"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/RoleSprite.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/RoleSprite.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Sprite.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.315086
+e349014712.421615
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Sprite.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.m349014712#349014712#0(0"0(0#0#59"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.m8604574848#1990"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Sprite.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/Sprite.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/SwfImageParser.o /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014712.265509
+e349014712.340388
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/SwfImageParser.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.m349014712#349014712#0(0"0(0#0#67"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.m8606037184#2006"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/SwfImageParser.o0#
+
+CCompileC build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o /Users/sddhbk/gamemaking/BallGame/BallGame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014711.797116
+e349014711.932141
+r1
+xCompileC
+xbuild/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+x/Users/sddhbk/gamemaking/BallGame/BallGame/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/sddhbk/gamemaking/BallGame/BallGame/main.m349014711#349014711#0(0"0(0#0#49"/Users/sddhbk/gamemaking/BallGame/BallGame/main.m8606024576#1995"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -include /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch -c /Users/sddhbk/gamemaking/BallGame/BallGame/main.m -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o0#
+
+CCompileXIB /Users/sddhbk/gamemaking/BallGame/BallGame/MainWindow.xib
+s349014709.669250
+e349014710.366181
+r1
+xCompileXIB
+x/Users/sddhbk/gamemaking/BallGame/BallGame/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib349014709#349014710#0(0"0(0#0#57"/Users/sddhbk/gamemaking/BallGame/BallGame/MainWindow.xib8602970624#583"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/MainWindow.nib /Users/sddhbk/gamemaking/BallGame/BallGame/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/sddhbk/gamemaking/BallGame/BallGame/battle.xib
+s349014709.683246
+e349014710.151600
+r1
+xCompileXIB
+x/Users/sddhbk/gamemaking/BallGame/BallGame/battle.xib
+lSLF07#2@21"CompileXIB battle.xib349014709#349014710#0(0"0(0#0#53"/Users/sddhbk/gamemaking/BallGame/BallGame/battle.xib8604522880#575"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/battle.nib /Users/sddhbk/gamemaking/BallGame/BallGame/battle.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/FrameDefine.plist FrameDefine.plist
+s349014709.691568
+e349014710.141530
+r1
+xCopyPlistFile
+x/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/FrameDefine.plist
+xFrameDefine.plist
+lSLF07#2@22"Copy FrameDefine.plist349014709#349014710#0(0"0(0#0#60"/Users/sddhbk/gamemaking/BallGame/BallGame/FrameDefine.plist8605949408#401"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 FrameDefine.plist --outdir /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCopyPlistFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.plist Classes/gameresource/SpaceRocksAtlas.plist
+s349014709.871633
+e349014710.142089
+r1
+xCopyPlistFile
+x/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.plist
+xClasses/gameresource/SpaceRocksAtlas.plist
+lSLF07#2@47"Copy Classes/gameresource/SpaceRocksAtlas.plist349014709#349014710#0(0"0(0#0#85"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/SpaceRocksAtlas.plist8604591360#426"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Classes/gameresource/SpaceRocksAtlas.plist --outdir /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/Default@2x.png Default@2x.png
+s349014709.684719
+e349014709.853399
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/Default@2x.png
+xDefault@2x.png
+lSLF07#2@19"Copy Default@2x.png349014709#349014709#0(0"0(0#0#57"/Users/sddhbk/gamemaking/BallGame/BallGame/Default@2x.png8603856064#485"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/Default@2x.png /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.png Classes/gameresource/SpaceRocksAtlas.png
+s349014709.870896
+e349014709.996973
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/SpaceRocksAtlas.png
+xClasses/gameresource/SpaceRocksAtlas.png
+lSLF07#2@45"Copy Classes/gameresource/SpaceRocksAtlas.png349014709#349014710#0(0"0(0#0#83"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/SpaceRocksAtlas.png8605974656#511"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/SpaceRocksAtlas.png /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/gameback.jpg gameback.jpg
+s349014709.689562
+e349014709.859725
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/gameback.jpg
+xgameback.jpg
+lSLF07#2@17"Copy gameback.jpg349014709#349014709#0(0"0(0#0#55"/Users/sddhbk/gamemaking/BallGame/BallGame/gameback.jpg8604499488#483"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/gameback.jpg /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/multi2.png multi2.png
+s349014709.686106
+e349014709.800251
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/multi2.png
+xmulti2.png
+lSLF07#2@15"Copy multi2.png349014709#349014709#0(0"0(0#0#53"/Users/sddhbk/gamemaking/BallGame/BallGame/multi2.png8604433824#481"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/multi2.png /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/role1_81_250_250_16.png role1_81_250_250_16.png
+s349014709.690522
+e349014709.870104
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/role1_81_250_250_16.png
+xrole1_81_250_250_16.png
+lSLF07#2@28"Copy role1_81_250_250_16.png349014709#349014709#0(0"0(0#0#66"/Users/sddhbk/gamemaking/BallGame/BallGame/role1_81_250_250_16.png8604550208#494"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/role1_81_250_250_16.png /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/role2_32_100_100_8.png role2_32_100_100_8.png
+s349014709.870217
+e349014710.018452
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/role2_32_100_100_8.png
+xrole2_32_100_100_8.png
+lSLF07#2@27"Copy role2_32_100_100_8.png349014709#349014710#0(0"0(0#0#65"/Users/sddhbk/gamemaking/BallGame/BallGame/role2_32_100_100_8.png8605998976#493"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/role2_32_100_100_8.png /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/shield.png Classes/gameresource/../../shield.png
+s349014709.687316
+e349014709.800425
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/shield.png
+xClasses/gameresource/../../shield.png
+lSLF07#2@42"Copy Classes/gameresource/../../shield.png349014709#349014709#0(0"0(0#0#80"/Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/../../shield.png8603437568#508"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameresource/../../shield.png /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CCpResource build/Debug-iphonesimulator/BallGame.app/sword.png sword.png
+s349014709.688484
+e349014709.800600
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BallGame.app/sword.png
+xsword.png
+lSLF07#2@14"Copy sword.png349014709#349014709#0(0"0(0#0#52"/Users/sddhbk/gamemaking/BallGame/BallGame/sword.png8601881408#480"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sddhbk/gamemaking/BallGame/BallGame/sword.png /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+
+CGenerateDSYMFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app.dSYM /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame
+s349014713.367883
+e349014713.489841
+r1
+xGenerateDSYMFile
+x/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app.dSYM
+x/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/BallGame.app.dSYM build/Debug-iphonesimulator/BallGame.app/BallGame349014713#349014713#0(0"0(0#0#92"/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame8603692032#398"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app.dSYM0#
+
+CLd /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame normal i386
+s349014713.114786
+e349014713.367756
+r1
+xLd
+x/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame
+xnormal
+xi386
+lSLF07#2@97"Link /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame349014713#349014713#0(0"0(0#0#0"8605974464#967"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -filelist /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/Objects-normal/i386/BallGame.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/BallGame0#
+
+CProcessInfoPlistFile /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/Info.plist BallGame-Info.plist
+s349014709.655998
+e349014709.669177
+r1
+xProcessInfoPlistFile
+x/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/Info.plist
+xBallGame-Info.plist
+lSLF07#2@27"Process BallGame-Info.plist349014709#349014709#0(0"0(0#0#62"/Users/sddhbk/gamemaking/BallGame/BallGame/BallGame-Info.plist29555366482477168#494"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BallGame-Info.plist -genpkginfo /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app/Info.plist0#
+
+CProcessPCH /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch.gch BallGame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s349014710.366419
+e349014711.796742
+r1
+xProcessPCH
+x/var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch.gch
+xBallGame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile BallGame_Prefix.pch349014710#349014711#0(0"0(0#0#62"/Users/sddhbk/gamemaking/BallGame/BallGame/BallGame_Prefix.pch8606100480#1865"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-generated-files.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-own-target-headers.hmap -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-all-target-headers.hmap -iquote /Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/BallGame-project-headers.hmap -F/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/include -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources/i386 -I/Users/sddhbk/gamemaking/BallGame/BallGame/build/BallGame.build/Debug-iphonesimulator/BallGame.build/DerivedSources -c /Users/sddhbk/gamemaking/BallGame/BallGame/BallGame_Prefix.pch -o /var/folders/w6/w64oIzRyGnSSKMgk3guPqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BallGame_Prefix-cxxwqovoivpdjkgmlpfcypbsmwyy/BallGame_Prefix.pch.gch0#
+
+CTouch /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app
+s349014713.489918
+e349014713.492074
+r1
+xTouch
+x/Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app
+lSLF07#2@89"Touch /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app349014713#349014713#0(0"0(0#0#0"8604546784#287"    cd /Users/sddhbk/gamemaking/BallGame/BallGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sddhbk/gamemaking/BallGame/BallGame/build/Debug-iphonesimulator/BallGame.app0#
+

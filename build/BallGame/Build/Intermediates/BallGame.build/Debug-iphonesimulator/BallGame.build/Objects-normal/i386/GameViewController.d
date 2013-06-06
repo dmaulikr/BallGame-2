@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GameViewController.m \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/gameViewController.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_CellVIew.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Cell.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Constants.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/B_Scene.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Main.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/Global.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SceneDefines.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/SwfImageParser.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/UIDefine.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/McView.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSceneController.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGInputViewController.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/EAGLView.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGSwfMaker.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGPoint.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBConfiguration.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGImageMesh.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGMesh.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLScene.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobjectContainer.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/GLDisplayobject.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BGButton.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/BBSceneObject.h \
+  /Users/sddhbk/gamemaking/BallGame/BallGame/Classes/ASFunction.h

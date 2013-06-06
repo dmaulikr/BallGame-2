@@ -1,0 +1,42 @@
+//
+//  BGAnimation.m
+//  BallGame
+//
+//  Created by 沈 冬冬 on 12-1-3.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+#import "BGAnimation.h"
+#import "BGSwfMaker.h"
+#import "BGAnimatedImage.h"
+#import "BBSceneController.h"
+
+@implementation BGAnimation
+
+-(id) initWithAtlasKeys:(NSArray*)keys loops:(BOOL)loops speed:(NSInteger)speed
+{
+	self = [super init];
+	if (self != nil) {
+		self.mesh = [BGSwfMaker animationFromAtlasKeys:keys];
+		[(BGAnimatedImage*)mesh setSpeed:speed];
+		[(BGAnimatedImage*)mesh setLoops:loops];
+	}
+	return self;
+}
+
+-(void)awake
+{
+	
+}
+
+//逐帧调用,设置需要显示的帧
+-(void)update
+{
+	[super update];
+	
+	[(BGAnimatedImage*)mesh updateAnimation];
+	if ([(BGAnimatedImage*)mesh didFinish]) 
+	{
+		[[BBSceneController sharedSceneController] removeObjectFromScene:self];	
+	}	
+}
+@end

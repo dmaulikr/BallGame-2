@@ -1,0 +1,27 @@
+//
+//  GLDisplayobjectContainer.h
+//  BallGame
+//
+//  Created by 沈 冬冬 on 12-1-17.
+//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "GLDisplayobject.h"
+
+@interface GLDisplayobjectContainer : GLDisplayobject 
+{
+	NSMutableArray *childArray;					//保存此控件中的子控件
+	
+	BOOL mouseChildren;
+}
+
+@property (retain) NSMutableArray *childArray;
+@property (assign) BOOL mouseChildren;
+
+-(void) startMove;
+-(void) dealloc;
+-(void) addChild:(GLDisplayobject *)child;
+-(void) removeChild:(GLDisplayobject *)child;
+
+@end

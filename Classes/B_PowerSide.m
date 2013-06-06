@@ -1,0 +1,174 @@
+    //
+//  BattlePowerSide.m
+//  BallGame
+//
+//  Created by 沈 冬冬 on 11-11-19.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "B_PowerSide.h"
+#import "B_CellVIew.h"
+#import "B_army.h"
+#import "B_AtkDefStore.h"
+#import "Constants.h"
+#import "B_Scene.h"
+#import "B_skillBar.h"
+#import "UIDefine.h"
+
+@implementation B_PowerSide
+
+@synthesize battleView;
+@synthesize armyView;
+@synthesize sidetype;
+@synthesize scene;
+@synthesize atkPowerInfo;
+@synthesize defPowerInfo;
+@synthesize skillBar;
+
+@synthesize opponent;
+
+-(void) initPowerSide
+{
+	[atkPowerInfo clearInfo];
+	[defPowerInfo clearInfo];
+	[skillBar clearInfo];
+}
+
+-(void)loadView
+{
+	if (sidetype == 0) {
+		self.view = [[UIView alloc] initWithFrame:attackPoserSideFrame];
+	}
+	else {
+		self.view = [[UIView alloc] initWithFrame:defensePoserSideFrame];
+	}
+	
+	if (battleView == nil) {
+		battleView = [B_CellVIew alloc];
+		battleView.power = [self retain];
+	}
+	
+	if (armyView == nil) {
+		armyView = [B_army alloc];
+	}
+	
+	if (atkPowerInfo == nil) {
+		atkPowerInfo = [B_AtkDefStore alloc];
+		atkPowerInfo.type = attackTypeDefine;
+	}
+	
+	if (defPowerInfo == nil) {
+		defPowerInfo = [B_AtkDefStore alloc];
+		defPowerInfo.type = defenseTypeDefine;
+	}
+	
+	if (skillBar == nil) {
+		skillBar = [B_skillBar alloc];
+	}
+	
+	[self.view addSubview:skillBar.view];
+	
+	[self.view addSubview:battleView.view];
+	[self.view addSubview:armyView.view];
+	
+	[self.view addSubview:armyView.view];
+	
+	[self.view addSubview:atkPowerInfo.view];
+	[self.view addSubview:defPowerInfo.view];
+}
+
+-(void) handleDisapperCell:(NSMutableDictionary *)cellTypeInfo cellType:(int)type			//更新攻击以及防守的数值
+{
+	if (cellTypeInfo == nil) {
+		return;
+	}
+	for(NSNumber *key in cellTypeInfo)
+	{
+		int type = [key intValue];
+		NSNumber *value = [cellTypeInfo objectForKey:key];
+		if (type == attackTypeDefine) {
+			[atkPowerInfo increaseValue:[value intValue]];
+		}
+		else if (type == defenseTypeDefine) {
+			[defPowerInfo increaseValue:[value intValue]];
+		}
+	}
+}
+
+-(void) bearDamage:(int) value					//遭受损失
+{	
+	int damageValue = 0;
+	int defensePointsLeft = 0;
+	
+	if (value > self.defPowerInfo.curValue) {
+		damageValue = value - self.defPowerInfo.curValue;
+		defensePointsLeft = 0;
+	}
+	else {
+		damageValue = 0;
+		defensePointsLeft = self.defPowerInfo.curValue - value;
+	}
+	
+	[self.defPowerInfo updateValue:defensePointsLeft];
+	
+	Boolean isDead = [armyView assignDamage:damageValue];
+	if (isDead) {
+		//NSLog(@"one is dead!!");
+	}
+	
+}
+
+-(void) simuCelleClicked:(int)level				//模拟点击
+{	
+	int index = [battleView getCellToClick];
+	B_Cell *cell = [battleView getCellByIndex:index];
+	if (cell) 
+	{
+		
+		[battleView colorButtonClicked:cell];
+	}
+}
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad 
+{
+    [super viewDidLoad];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation 
+{
+    // Overriden to allow any orientation.
+    return YES;
+}
+
+- (void)didReceiveMemoryWarning 
+{
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+- (void)viewDidUnload 
+{
+	battleView = nil;
+	armyView = nil;
+	scene = nil;
+	atkPowerInfo = nil;
+	defPowerInfo = nil;
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (void)dealloc 
+{
+	[battleView release];
+	[armyView release];
+	[scene release];
+	[atkPowerInfo release];
+	[defPowerInfo release];
+    [super dealloc];
+}
+
+
+@end

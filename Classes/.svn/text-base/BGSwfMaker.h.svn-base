@@ -1,0 +1,43 @@
+//
+//  BBMaterialController.h
+//  BallGame
+//
+//  Created by SDD on 14/07/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <OpenGLES/EAGL.h>
+#import <OpenGLES/ES1/gl.h>
+#import <OpenGLES/ES1/glext.h>
+#import <QuartzCore/QuartzCore.h>
+#import "BGPoint.h";
+#import "BBConfiguration.h";
+#import "BGImageMesh.h"
+
+@class BGImageMesh;
+@class BGAnimatedImage;
+
+@interface BGSwfMaker : NSObject {
+	//NSMutableDictionary * materialLibrary;
+}
+
+//@property (retain) NSMutableDictionary *materialLibrary;
+//@property (retain) NSMutableDictionary *quadLibrary;
+
++(BGSwfMaker *) getSingleSwfMaker:(NSString *) fileName;
++(void)bindMaterial:(NSString *) materialKey;
++(BGImageMesh*)quadFromAtlasKey:(NSString*)atlasKey;
++(BGAnimatedImage*)animationFromAtlasKeys:(NSArray*)atlasKeys;		
+
+- (BGImageMesh*)texturedQuadFromAtlasRecord:(NSDictionary*)record atlasSize:(CGSize)atlasSize materialKey:(NSString*)key;
+- (CGSize)loadTextureImage:(NSString*)imageName materialKey:(NSString*)materialKey;
+- (void) dealloc;
+- (void)loadAtlasData:(NSString*)atlasName;
+
+// 9 methods
+
+
+
+
+@end
